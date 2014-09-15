@@ -34,4 +34,4 @@ ADD sudoers /etc/sudoers
 RUN chown -R crackcell:crackcell /home/crackcell
 
 # startup
-ENTRYPOINT /etc/init.d/ssh start
+#ENTRYPOINT /etc/init.d/ssh start
