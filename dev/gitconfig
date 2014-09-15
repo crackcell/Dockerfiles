@@ -1,0 +1,10 @@
+[user]
+	name = Menglong Tan
+	email = tanmenglong@gmail.com
+[alias]
+	ci = commit -a
+	st = status
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
