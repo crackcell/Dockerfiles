@@ -53,3 +53,5 @@ source ~/.emacs.d/emacs-plugins/scripts/init-shell.sh
 
 #export A_HOME="/home/a"
 #source $A_HOME/env.sh
+
+export LC_ALL="en_US.UTF-8"

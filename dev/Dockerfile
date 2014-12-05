@@ -3,6 +3,9 @@ MAINTAINER Menglong TAN <tanmenglong@gmail.com>
 
 RUN apt-get update
 
+# locale
+RUN locale-gen en_US.UTF-8
+
 # dev
 RUN apt-get install -y zsh emacs git subversion build-essential nano golang valgrind cmake
 
