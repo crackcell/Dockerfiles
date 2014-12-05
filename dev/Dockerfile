@@ -27,6 +27,9 @@ RUN cp /home/crackcell/.emacs.d/emacs-plugins/emacs /home/crackcell/.emacs
 RUN git clone git://github.com/robbyrussell/oh-my-zsh.git
 RUN mv oh-my-zsh /home/crackcell/.oh-my-zsh
 
+## locale
+RUN locale-gen en_US.UTF-8
+
 ADD zshrc /home/crackcell/.zshrc
 ADD gitconfig /home/crackcell/.gitconfig
 ADD sudoers /etc/sudoers
